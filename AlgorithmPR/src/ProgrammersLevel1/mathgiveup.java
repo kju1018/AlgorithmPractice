@@ -1,4 +1,4 @@
-package Programmers;
+package ProgrammersLevel1;
 
 
 import java.util.ArrayList;
@@ -30,7 +30,7 @@ public class mathgiveup {
 			Max = count2;
 
 		for(int i = 0; i<answers.length ; i++) {
-			if(answers[i] == pattern[1][i%pattern[2].length])
+			if(answers[i] == pattern[2][i%pattern[2].length])
 				count3++;
 		}
 		
